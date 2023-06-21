@@ -10,7 +10,7 @@ import matplotlib as plt
 #File finder
 x = []
 y = []
-for filename in glob.glob('C:\\Users\\ivanl\\Desktop\\ITMO\\Hight_width\\N050\\*.txt'):
+for filename in glob.glob('file_name*.txt'):
    with open(os.path.join(os.getcwd(), filename), 'r') as f:
        text = f.read()
     #    x = text[:, 0] #width
